@@ -1,0 +1,23 @@
+{
+  "name": "terminal-assistent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "seed": "node src/seed.js",
+    "generate": "node src/generate-access-logs.js",
+    "start": "node --env-file-if-exists=.env.local src/index.js",
+    "test": "node --test 'src/**/*.test.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.107",
+    "@ai-sdk/openai": "^4.0.104",
+    "@faker-js/faker": "^10.6.0",
+    "ai": "^7.0.155",
+    "zod": "^4.6.7"
+  }
+}

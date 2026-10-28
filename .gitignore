@@ -1,0 +1,14 @@
+node_modules/
+
+# arquivos gerados
+access_log.log
+access.log
+*.log
+*.db
+*.db-wal
+*.db-shm
+
+# segredos
+.env
+.env.local
+.env.*.local
