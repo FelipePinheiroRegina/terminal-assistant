@@ -1,7 +1,7 @@
 {
   "name": "terminal-assistent",
   "version": "1.0.0",
-  "description": "",
+  "description": "Agente de terminal que responde perguntas em linguagem natural sobre logs de acesso em SQLite",
   "main": "src/index.js",
   "scripts": {
     "seed": "node src/seed.js",
@@ -19,5 +19,8 @@
     "@faker-js/faker": "^10.6.0",
     "ai": "^7.0.155",
     "zod": "^4.6.7"
+  },
+  "engines": {
+    "node": ">=22.13"
   }
 }
